@@ -7,7 +7,7 @@
 import { mountShell } from '../components/shell.js';
 import { h, $, replaceChildren } from '../utils/dom.js';
 import { getParams, setParams } from '../utils/url.js';
-import { routeUrl, ROUTES } from '../config/site.js';
+import { routeUrl, ROUTES, EMAIL_SENDING } from '../config/site.js';
 import { field, setError, input } from '../components/forms.js';
 import {
   signIn, signUp, requestPasswordReset, updatePassword, getSession, onAuthChange, friendlyError,
@@ -65,7 +65,7 @@ function render() {
     login: () => [field({ label: 'Email', control: email }), field({ label: 'Password', control: password })],
     register: () => [
       field({ label: 'Display name', control: name, hint: 'Shown on resources you contribute. You can use a first name or nickname.' }),
-      field({ label: 'Email', control: email, hint: 'Used to sign in and to reset your password. Never shown publicly.' }),
+      field({ label: 'Email', control: email, hint: EMAIL_SENDING ? 'Used to sign in and to reset your password. Never shown publicly.' : 'Use your school email. It is your sign-in name and is never shown publicly.' }),
       field({ label: 'Password', control: password, hint: `At least ${PASSWORD_MIN} characters.` }),
       field({ label: 'Confirm password', control: confirm }),
     ],
@@ -150,13 +150,19 @@ function render() {
     onclick: (e) => { e.preventDefault(); mode = key; setParams({ mode: key }); render(); },
   }, label);
 
+  // Without email sending, password resets are done by an administrator in person.
+  const noEmailReset = mode === 'reset' && !EMAIL_SENDING;
+
   replaceChildren(main, h('div', { class: 'container' }, h('div', { class: 'auth-wrap' },
     (mode === 'login' || mode === 'register')
       ? h('div', { class: 'tabs', role: 'tablist' }, tab('login', 'Sign in'), tab('register', 'Create account'))
       : null,
     h('h1', null, m.title),
-    h('p', null, m.lede),
-    form,
+    noEmailReset
+      ? h('p', { class: 'notice notice--info' },
+        'Password reset emails are not available yet. Ask a site administrator (the CAS team) in person: they will set a temporary password for you, which you can change from your account page after signing in.')
+      : h('p', null, m.lede),
+    noEmailReset ? null : form,
     h('p', { class: 'auth-alt' },
       mode === 'login' ? h('a', { href: routeUrl('auth', { mode: 'reset' }), onclick: (e) => { e.preventDefault(); mode = 'reset'; setParams({ mode }); render(); } }, 'Forgot your password?')
         : mode === 'reset' ? h('a', { href: routeUrl('auth', { mode: 'login' }), onclick: (e) => { e.preventDefault(); mode = 'login'; setParams({ mode }); render(); } }, 'Back to sign in')

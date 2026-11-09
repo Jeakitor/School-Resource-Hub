@@ -157,7 +157,6 @@ function renderPreviewBanner() {
 }
 
 function renderFooter() {
-  const year = new Date().getFullYear();
   const link = (href, label) => h('li', null, h('a', { href }, label));
 
   return h('footer', { class: 'site-footer' },
@@ -189,7 +188,7 @@ function renderFooter() {
       ),
       h('div', { class: 'site-footer__base' },
         h('span', null, `Syllabi aligned to the ${TARGET_SESSION} examination session`),
-        h('span', null, `© ${year} ${SITE_NAME}`),
+        h('span', null, '© Jeakitor Work'),
       ),
     ),
   );

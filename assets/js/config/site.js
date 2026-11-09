@@ -47,6 +47,13 @@ export const LEVELS = {
   HL: { label: 'HL only', short: 'HL', description: 'Additional higher level content' },
 };
 
+/**
+ * Can Supabase send email (custom SMTP set up, docs/email.md)? While false, the site
+ * doesn't promise emails: "Forgot password" tells students to ask an administrator,
+ * and sign-up doesn't say "check your inbox". Set to true once SMTP works.
+ */
+export const EMAIL_SENDING = false;
+
 /** Contribution limits. The database and storage policies enforce the same limits (Phase 2). */
 export const LIMITS = {
   pdfMaxBytes: 20 * 1024 * 1024,
