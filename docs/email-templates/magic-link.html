@@ -1,0 +1,15 @@
+<!-- School Resource Hub email template. Paste into Supabase → Authentication → Emails. -->
+<div style="background:#1b1b1f;padding:32px 16px;font-family:'Times New Roman',Times,serif;color:#eeeae2">
+  <div style="max-width:520px;margin:0 auto;background:#232329;border:1px solid #33333b;border-radius:6px;padding:28px">
+    <p style="margin:0 0 20px;font-size:15px;color:#aaa7a0">School Resource Hub</p>
+    <h1 style="margin:0 0 16px;font-size:26px;font-weight:400;color:#eeeae2">Your sign-in link</h1>
+    <p style="margin:0 0 24px;font-size:17px;line-height:1.6;color:#eeeae2">Use this link to sign in to School Resource Hub.</p>
+    <p style="margin:0 0 24px">
+      <a href="{{ .ConfirmationURL }}" style="display:inline-block;background:#b2f07b;color:#16190f;text-decoration:none;font-size:17px;padding:12px 22px;border-radius:5px">Sign in</a>
+    </p>
+    <p style="margin:0 0 8px;font-size:14px;line-height:1.5;color:#aaa7a0">If the button does not work, copy this link into your browser:</p>
+    <p style="margin:0 0 24px;font-size:13px;line-height:1.5;word-break:break-all"><a href="{{ .ConfirmationURL }}" style="color:#b2f07b">{{ .ConfirmationURL }}</a></p>
+    <p style="margin:0;font-size:14px;line-height:1.5;color:#8d8a83">If you did not ask for this, you can ignore this email.</p>
+  </div>
+  <p style="max-width:520px;margin:16px auto 0;font-size:12px;color:#8d8a83;text-align:center">A student-built IB Diploma resource library (CAS project). Not affiliated with the IB.</p>
+</div>

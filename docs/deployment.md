@@ -75,11 +75,11 @@ the commit is not enough).
 
 ## Before launch (checklist)
 
-- [ ] Verify the syllabus maps against the official IB guides ([syllabus.md](syllabus.md)), Psychology first.
-- [ ] Set up custom SMTP in Supabase (Authentication → Emails) so confirmation and reset emails arrive reliably.
+- [ ] Verify the remaining syllabus maps against the official IB guides ([syllabus.md](syllabus.md)). Psychology done (9 Nov 2026).
+- [ ] Set up custom SMTP ([email.md](email.md)) so confirmation and reset emails arrive reliably.
 - [ ] Delete test resources (Moderation, or the SQL Editor) and leftover test files (Moderation → Files).
 - [ ] Decide who else gets admin; give teachers their subjects (Moderation → People & roles).
-- [ ] Backblaze: confirm the $0 caps are set.
+- [x] Backblaze: $0 caps set (confirmed 9 Nov 2026).
 - [ ] Supabase: Dashboard → Advisors → Security shows no warnings.
 - [ ] Optional: copy `marked` and `DOMPurify` into `assets/vendor/` to remove the CDN dependency.
 

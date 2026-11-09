@@ -58,7 +58,7 @@ subtopics are still to be transcribed (Maths AA, Maths AI, Psychology).
 
 ## Review status (as of 7 Nov 2026)
 
-**All 18 files are `unverified`.** They were compiled from knowledge of the
+**Psychology is `verified` (Jeakitor, 9 Nov 2026). The other 17 files are `unverified`.** They were compiled from knowledge of the
 guides and have not yet been checked line-by-line against official PDFs.
 
 - **Maths AA:** topic titles only. Subtopics are intentionally empty and must be

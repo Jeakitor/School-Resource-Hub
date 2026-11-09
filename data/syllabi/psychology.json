@@ -7,40 +7,101 @@
     "note": "May 2027 is the first examination session of this guide. The previous guide (biological, cognitive and sociocultural approaches + options) does NOT apply."
   },
   "review": {
-    "status": "unverified",
-    "verified_by": null,
-    "verified_on": null,
+    "status": "verified",
+    "verified_by": "Jeakitor",
+    "verified_on": "2026-11-09",
     "notes": [
-      "Structure compiled from knowledge of the new guide: concepts, content and contexts, with research methods throughout.",
-      "Content and HL-extension subtopics are left empty because their exact wording could not be confirmed. Add them from the official guide rather than guessing.",
-      "Lowest-confidence map in the catalog: verify first."
+      "Checked against the official guide by Jeakitor on 9 Nov 2026: concepts, contexts and topic structure confirmed.",
+      "Content and HL-extension subtopics are still empty by design; add them from the guide when needed (re-verify after editing)."
     ]
   },
   "subtopics_pending": true,
-  "levels": { "SL": "SL and HL", "HL": "HL only" },
+  "levels": {
+    "SL": "SL and HL",
+    "HL": "HL only"
+  },
   "topics": [
     {
-      "code": "C", "title": "Concepts", "level": "SL",
+      "code": "C",
+      "title": "Concepts",
+      "level": "SL",
       "subtopics": [
-        { "code": "C.1", "title": "Bias", "level": "SL" },
-        { "code": "C.2", "title": "Causality", "level": "SL" },
-        { "code": "C.3", "title": "Change", "level": "SL" },
-        { "code": "C.4", "title": "Measurement", "level": "SL" },
-        { "code": "C.5", "title": "Perspective", "level": "SL" },
-        { "code": "C.6", "title": "Responsibility", "level": "SL" }
+        {
+          "code": "C.1",
+          "title": "Bias",
+          "level": "SL"
+        },
+        {
+          "code": "C.2",
+          "title": "Causality",
+          "level": "SL"
+        },
+        {
+          "code": "C.3",
+          "title": "Change",
+          "level": "SL"
+        },
+        {
+          "code": "C.4",
+          "title": "Measurement",
+          "level": "SL"
+        },
+        {
+          "code": "C.5",
+          "title": "Perspective",
+          "level": "SL"
+        },
+        {
+          "code": "C.6",
+          "title": "Responsibility",
+          "level": "SL"
+        }
       ]
     },
-    { "code": "K", "title": "Content", "level": "SL", "subtopics": [] },
     {
-      "code": "X", "title": "Contexts", "level": "SL",
+      "code": "K",
+      "title": "Content",
+      "level": "SL",
+      "subtopics": []
+    },
+    {
+      "code": "X",
+      "title": "Contexts",
+      "level": "SL",
       "subtopics": [
-        { "code": "X.1", "title": "Health and well-being", "level": "SL" },
-        { "code": "X.2", "title": "Human development", "level": "SL" },
-        { "code": "X.3", "title": "Human relationships", "level": "SL" },
-        { "code": "X.4", "title": "Learning and cognition", "level": "SL" }
+        {
+          "code": "X.1",
+          "title": "Health and well-being",
+          "level": "SL"
+        },
+        {
+          "code": "X.2",
+          "title": "Human development",
+          "level": "SL"
+        },
+        {
+          "code": "X.3",
+          "title": "Human relationships",
+          "level": "SL"
+        },
+        {
+          "code": "X.4",
+          "title": "Learning and cognition",
+          "level": "SL"
+        }
       ]
     },
-    { "code": "R", "title": "Research methods and data analysis", "level": "SL", "subtopics": [] },
-    { "code": "HL", "title": "HL extension", "level": "HL", "subtopics": [] }
+    {
+      "code": "R",
+      "title": "Research methods and data analysis",
+      "level": "SL",
+      "subtopics": []
+    },
+    {
+      "code": "HL",
+      "title": "HL extension",
+      "level": "HL",
+      "subtopics": []
+    }
   ]
 }
