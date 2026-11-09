@@ -18,7 +18,41 @@ not a personal one. It keeps your inbox private and lets the CAS group hand it o
 Alternatives, if the school later gets its own domain: **Brevo** (300/day free) or
 **Resend** (100/day free). Both need DNS records on a domain you control.
 
-## Setup (about 15 minutes)
+## Without a phone: Brevo (free, no 2-Step Verification needed)
+
+Brevo (formerly Sendinblue) gives 300 emails/day free. You verify a sender address by
+clicking a link in an email, so no phone or app password is needed. (Brevo may still ask
+for extra details at sign-up; this can change.)
+
+1. Sign up at <https://www.brevo.com> with an email you can read.
+2. **Senders, Domains & Dedicated IPs → Senders → Add a sender**: use an address you own
+   (ideally a school address, or a personal Gmail/Outlook one). Click the verification link
+   Brevo emails you. **Avoid Yahoo/AOL addresses**: their providers reject mail sent on
+   their behalf by other services.
+3. **SMTP & API → SMTP → Generate a new SMTP key**. Copy it straight into Supabase.
+4. Supabase → **Authentication → Emails → SMTP Settings**:
+
+| Field | Value |
+|---|---|
+| Sender email | the verified sender address |
+| Sender name | `School Resource Hub` |
+| Host | `smtp-relay.brevo.com` |
+| Port | `587` |
+| Username | the **SMTP login** shown on Brevo's SMTP page (looks like `xxxx@smtp-brevo.com`, not your email) |
+| Password | the SMTP key |
+
+**Deliverability caveat:** when the sender is a free address (Gmail/Outlook) but Brevo
+sends the mail, some inboxes put it in spam, because the sending service doesn't match the
+address's domain. Tell testers to check spam at first. The proper fix is a sender on a domain
+you control (see below).
+
+**Best long-term option:** ask the school's IT team for either an SMTP relay or permission to
+add Brevo's DNS records for a school address (e.g. `resourcehub@yourschool.org`). Mail from
+the school's own domain is the most trusted, and it looks official to students.
+
+Then continue with steps 3–5 below (rate limit, templates, test).
+
+## Gmail setup (about 15 minutes)
 
 ### 1. Prepare the Gmail account
 
