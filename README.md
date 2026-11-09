@@ -49,7 +49,7 @@ tools/dev-server.mjs           zero-dependency local server
 | 4 | Resource browsing, search, PDF delivery | Done: live on every page; signed PDF links confirmed with a real upload |
 | 5 | Contributions | Done: submit and edit confirmed; withdraw fixed (inline confirmation), awaiting retest |
 | 6 | Administration | Built: live review queue, decisions, teacher notes/flags/reviewed mark, roles, leftover files; needs migration 0008 |
-| 7 | Testing and deployment | Not started |
+| 7 | Testing and deployment | Live at https://jeakitor.github.io/School-Resource-Hub/ ([deployment](docs/deployment.md)); launch checklist open |
 
 See [docs/architecture.md](docs/architecture.md) for how the pieces fit together.
 

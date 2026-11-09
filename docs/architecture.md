@@ -151,4 +151,4 @@ All writes live in `services/resources.js`; the pages only collect input.
 
 ## Still to document
 
-- `deployment.md`: GitHub Pages + Supabase configuration (Phase 7)
+- [deployment.md](deployment.md): GitHub Pages, Supabase settings, secrets, launch checklist
