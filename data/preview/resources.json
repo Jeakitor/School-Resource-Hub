@@ -1,0 +1,119 @@
+{
+  "$comment": "PREVIEW DATA ONLY. None of these entries exist. Loaded only with ?preview=1, always under a banner. 'level' is 'SL' (core: SL and HL) or 'HL' (HL only).",
+  "is_preview": true,
+  "resources": [
+    {
+      "id": "preview-1",
+      "title": "[Preview] Elasticity of demand: summary sheet",
+      "description": "Sample entry used to preview layout. A real description would explain what the resource covers and who it is for.",
+      "subject_slug": "economics",
+      "level": "SL",
+      "topic_code": "2",
+      "subtopic_code": "2.5",
+      "resource_type": "pdf",
+      "tags": ["preview", "diagrams"],
+      "contributor_name": "Preview contributor",
+      "teacher_reviewed": true,
+      "created_at": "2026-11-04T10:00:00Z"
+    },
+    {
+      "id": "preview-2",
+      "title": "[Preview] Kinematics worked examples",
+      "description": "Sample entry used to preview layout.",
+      "subject_slug": "physics",
+      "level": "SL",
+      "topic_code": "A",
+      "subtopic_code": "A.1",
+      "resource_type": "markdown",
+      "body": "## Preview notes\n\nThis is **sample Markdown** used to preview how notes render.\n\n- Displacement is a vector\n- Velocity is the rate of change of displacement\n\n> Real notes will be written by students and reviewed before publishing.",
+      "tags": ["preview", "worked examples"],
+      "contributor_name": "Preview contributor",
+      "teacher_reviewed": false,
+      "created_at": "2026-11-03T16:30:00Z"
+    },
+    {
+      "id": "preview-3",
+      "title": "[Preview] Rigid body mechanics: torque practice",
+      "description": "Sample entry used to preview an HL-only resource.",
+      "subject_slug": "physics",
+      "level": "HL",
+      "topic_code": "A",
+      "subtopic_code": "A.4",
+      "resource_type": "pdf",
+      "tags": ["preview"],
+      "contributor_name": "Preview contributor",
+      "teacher_reviewed": false,
+      "created_at": "2026-11-02T09:15:00Z"
+    },
+    {
+      "id": "preview-4",
+      "title": "[Preview] Break-even analysis practice",
+      "description": "Sample entry used to preview layout.",
+      "subject_slug": "business-management",
+      "level": "SL",
+      "topic_code": "5",
+      "subtopic_code": "5.5",
+      "resource_type": "pdf",
+      "tags": ["preview", "calculations"],
+      "contributor_name": "Preview contributor",
+      "teacher_reviewed": true,
+      "created_at": "2026-10-30T12:00:00Z"
+    },
+    {
+      "id": "preview-5",
+      "title": "[Preview] External link example",
+      "description": "Sample entry used to preview an external link resource.",
+      "subject_slug": "computer-science",
+      "level": "SL",
+      "topic_code": "A2",
+      "subtopic_code": "A2.1",
+      "resource_type": "link",
+      "external_url": "https://example.com/",
+      "tags": ["preview"],
+      "contributor_name": "Preview contributor",
+      "teacher_reviewed": false,
+      "created_at": "2026-10-28T08:45:00Z"
+    }
+  ],
+  "submissions": [
+    {
+      "id": "preview-s1",
+      "title": "[Preview] Monetary policy flashcards",
+      "subject_slug": "economics",
+      "level": "SL",
+      "topic_code": "3",
+      "subtopic_code": "3.5",
+      "resource_type": "pdf",
+      "status": "pending",
+      "contributor_name": "Preview contributor",
+      "created_at": "2026-11-05T18:20:00Z",
+      "feedback": null
+    },
+    {
+      "id": "preview-s2",
+      "title": "[Preview] Induction summary",
+      "subject_slug": "physics",
+      "level": "HL",
+      "topic_code": "D",
+      "subtopic_code": "D.4",
+      "resource_type": "markdown",
+      "status": "rejected",
+      "contributor_name": "Preview contributor",
+      "created_at": "2026-11-01T11:00:00Z",
+      "feedback": "Sample feedback: the sign convention in Lenz's law is reversed in the second example. Please correct and resubmit."
+    },
+    {
+      "id": "preview-s3",
+      "title": "[Preview] Elasticity of demand: summary sheet",
+      "subject_slug": "economics",
+      "level": "SL",
+      "topic_code": "2",
+      "subtopic_code": "2.5",
+      "resource_type": "pdf",
+      "status": "approved",
+      "contributor_name": "Preview contributor",
+      "created_at": "2026-11-03T09:00:00Z",
+      "feedback": null
+    }
+  ]
+}

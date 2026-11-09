@@ -1,0 +1,24 @@
+{
+  "subject_slug": "cas",
+  "guide": {
+    "title": "Creativity, activity, service guide",
+    "first_assessment": null,
+    "applies_to_session": "May 2027",
+    "note": "CAS is not examined. These are SITE CATEGORIES for organising CAS help, based on its three strands, the CAS project, reflection and the learning outcomes."
+  },
+  "review": {
+    "status": "unverified",
+    "verified_by": null,
+    "verified_on": null,
+    "notes": ["Organisational categories chosen for the site."]
+  },
+  "categories_not_syllabus": true,
+  "levels": { "SL": "All students" },
+  "topics": [
+    { "code": "C", "title": "Creativity", "level": "SL", "subtopics": [] },
+    { "code": "A", "title": "Activity", "level": "SL", "subtopics": [] },
+    { "code": "S", "title": "Service", "level": "SL", "subtopics": [] },
+    { "code": "P", "title": "CAS project", "level": "SL", "subtopics": [] },
+    { "code": "R", "title": "Reflection, learning outcomes and portfolio", "level": "SL", "subtopics": [] }
+  ]
+}

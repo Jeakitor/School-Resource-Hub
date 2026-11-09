@@ -1,0 +1,38 @@
+{
+  "$comment": "Textbook references are kept separate from syllabus data. Never mix textbook chapters into data/syllabi. Chapter-to-subtopic mappings go in 'mappings' once confirmed from a physical copy. Unknown fields stay null.",
+  "textbooks": [
+    {
+      "id": "hoang-bm-5e",
+      "subject_slug": "business-management",
+      "author": "Paul Hoang",
+      "title": "Business Management",
+      "edition": "5th",
+      "publisher": null,
+      "isbn": null,
+      "status": "edition-confirmed",
+      "mappings": []
+    },
+    {
+      "id": "haese-maa-hl",
+      "subject_slug": "mathematics-aa-hl",
+      "author": null,
+      "title": "Haese Mathematics: Analysis and Approaches HL",
+      "edition": null,
+      "publisher": "Haese Mathematics",
+      "isbn": null,
+      "status": "edition-to-confirm",
+      "mappings": []
+    },
+    {
+      "id": "cambridge-tbc",
+      "subject_slug": null,
+      "author": null,
+      "title": "Cambridge University Press titles (subjects and editions to confirm)",
+      "edition": null,
+      "publisher": "Cambridge University Press",
+      "isbn": null,
+      "status": "to-confirm",
+      "mappings": []
+    }
+  ]
+}

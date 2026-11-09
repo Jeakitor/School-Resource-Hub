@@ -1,0 +1,73 @@
+{
+  "subject_slug": "chemistry",
+  "guide": {
+    "title": "Chemistry guide",
+    "first_assessment": 2025,
+    "applies_to_session": "May 2027",
+    "note": "Structure / Reactivity organisation of the guide first assessed in 2025."
+  },
+  "review": {
+    "status": "unverified",
+    "verified_by": null,
+    "verified_on": null,
+    "notes": [
+      "Subtopic titles compiled from knowledge of the 2025 guide.",
+      "Most subtopics mix SL and AHL statements; 'HL' is used only where a whole subtopic is AHL (R1.4). Verify against the official guide."
+    ]
+  },
+  "levels": { "SL": "SL and HL", "HL": "Additional higher level only" },
+  "topics": [
+    {
+      "code": "S1", "title": "Models of the particulate nature of matter", "level": "SL",
+      "subtopics": [
+        { "code": "S1.1", "title": "Introduction to the particulate nature of matter", "level": "SL" },
+        { "code": "S1.2", "title": "The nuclear atom", "level": "SL" },
+        { "code": "S1.3", "title": "Electron configurations", "level": "SL" },
+        { "code": "S1.4", "title": "Counting particles by mass: the mole", "level": "SL" },
+        { "code": "S1.5", "title": "Ideal gases", "level": "SL" }
+      ]
+    },
+    {
+      "code": "S2", "title": "Models of bonding and structure", "level": "SL",
+      "subtopics": [
+        { "code": "S2.1", "title": "The ionic model", "level": "SL" },
+        { "code": "S2.2", "title": "The covalent model", "level": "SL" },
+        { "code": "S2.3", "title": "The metallic model", "level": "SL" },
+        { "code": "S2.4", "title": "From models to materials", "level": "SL" }
+      ]
+    },
+    {
+      "code": "S3", "title": "Classification of matter", "level": "SL",
+      "subtopics": [
+        { "code": "S3.1", "title": "The periodic table: classification of elements", "level": "SL" },
+        { "code": "S3.2", "title": "Functional groups: classification of organic compounds", "level": "SL" }
+      ]
+    },
+    {
+      "code": "R1", "title": "What drives chemical reactions?", "level": "SL",
+      "subtopics": [
+        { "code": "R1.1", "title": "Measuring enthalpy changes", "level": "SL" },
+        { "code": "R1.2", "title": "Energy cycles in reactions", "level": "SL" },
+        { "code": "R1.3", "title": "Energy from fuels", "level": "SL" },
+        { "code": "R1.4", "title": "Entropy and spontaneity", "level": "HL" }
+      ]
+    },
+    {
+      "code": "R2", "title": "How much, how fast and how far?", "level": "SL",
+      "subtopics": [
+        { "code": "R2.1", "title": "How much? The amount of chemical change", "level": "SL" },
+        { "code": "R2.2", "title": "How fast? The rate of chemical change", "level": "SL" },
+        { "code": "R2.3", "title": "How far? The extent of chemical change", "level": "SL" }
+      ]
+    },
+    {
+      "code": "R3", "title": "What are the mechanisms of chemical change?", "level": "SL",
+      "subtopics": [
+        { "code": "R3.1", "title": "Proton transfer reactions", "level": "SL" },
+        { "code": "R3.2", "title": "Electron transfer reactions", "level": "SL" },
+        { "code": "R3.3", "title": "Electron sharing reactions", "level": "SL" },
+        { "code": "R3.4", "title": "Electron-pair sharing reactions", "level": "SL" }
+      ]
+    }
+  ]
+}

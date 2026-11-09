@@ -1,0 +1,86 @@
+{
+  "subject_slug": "computer-science",
+  "guide": {
+    "title": "Computer science guide",
+    "first_assessment": 2027,
+    "applies_to_session": "May 2027",
+    "note": "May 2027 is the first examination session of this guide. The previous guide (topics 1–7 + options) does not apply."
+  },
+  "review": {
+    "status": "unverified",
+    "verified_by": null,
+    "verified_on": null,
+    "notes": [
+      "Theme / topic / subtopic structure (A1–A4, B1–B4) compiled from knowledge of the 2027 guide; RevisionDojo used as a secondary cross-check.",
+      "Verify subtopic titles and HL-only markers against the official guide before marking verified."
+    ]
+  },
+  "levels": { "SL": "SL and HL", "HL": "HL only" },
+  "topics": [
+    {
+      "code": "A1", "title": "Computer fundamentals", "level": "SL",
+      "subtopics": [
+        { "code": "A1.1", "title": "Computer hardware and operation", "level": "SL" },
+        { "code": "A1.2", "title": "Data representation and computer logic", "level": "SL" },
+        { "code": "A1.3", "title": "Operating systems and control systems", "level": "SL" },
+        { "code": "A1.4", "title": "Translation", "level": "HL" }
+      ]
+    },
+    {
+      "code": "A2", "title": "Networks", "level": "SL",
+      "subtopics": [
+        { "code": "A2.1", "title": "Network fundamentals", "level": "SL" },
+        { "code": "A2.2", "title": "Network architecture", "level": "SL" },
+        { "code": "A2.3", "title": "Data transmission", "level": "SL" },
+        { "code": "A2.4", "title": "Network security", "level": "SL" }
+      ]
+    },
+    {
+      "code": "A3", "title": "Databases", "level": "SL",
+      "subtopics": [
+        { "code": "A3.1", "title": "Database fundamentals", "level": "SL" },
+        { "code": "A3.2", "title": "Database design", "level": "SL" },
+        { "code": "A3.3", "title": "Database programming", "level": "SL" },
+        { "code": "A3.4", "title": "Alternative databases and data warehouses", "level": "HL" }
+      ]
+    },
+    {
+      "code": "A4", "title": "Machine learning", "level": "SL",
+      "subtopics": [
+        { "code": "A4.1", "title": "Machine learning fundamentals", "level": "SL" },
+        { "code": "A4.2", "title": "Data preprocessing", "level": "HL" },
+        { "code": "A4.3", "title": "Machine learning approaches", "level": "SL" },
+        { "code": "A4.4", "title": "Ethical considerations", "level": "SL" }
+      ]
+    },
+    {
+      "code": "B1", "title": "Computational thinking", "level": "SL",
+      "subtopics": [
+        { "code": "B1.1", "title": "Approaches to computational thinking", "level": "SL" }
+      ]
+    },
+    {
+      "code": "B2", "title": "Programming", "level": "SL",
+      "subtopics": [
+        { "code": "B2.1", "title": "Programming fundamentals", "level": "SL" },
+        { "code": "B2.2", "title": "Data structures", "level": "SL" },
+        { "code": "B2.3", "title": "Programming constructs", "level": "SL" },
+        { "code": "B2.4", "title": "Programming algorithms", "level": "SL" },
+        { "code": "B2.5", "title": "File processing", "level": "SL" }
+      ]
+    },
+    {
+      "code": "B3", "title": "Object-oriented programming", "level": "SL",
+      "subtopics": [
+        { "code": "B3.1", "title": "Fundamentals of OOP for a single class", "level": "SL" },
+        { "code": "B3.2", "title": "Fundamentals of OOP for multiple classes", "level": "HL" }
+      ]
+    },
+    {
+      "code": "B4", "title": "Abstract data types", "level": "HL",
+      "subtopics": [
+        { "code": "B4.1", "title": "Fundamentals of abstract data types", "level": "HL" }
+      ]
+    }
+  ]
+}

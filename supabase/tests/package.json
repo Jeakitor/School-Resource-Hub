@@ -1,0 +1,15 @@
+{
+  "name": "school-resource-hub-db-tests",
+  "private": true,
+  "type": "module",
+  "description": "Runs the Supabase migrations on an in-process Postgres (PGlite) and checks every access rule, then unit-tests the files Edge Function. Dev-only; not part of the website.",
+  "scripts": {
+    "test": "node run-policy-tests.mjs && node --test files-function.test.mjs",
+    "test:db": "node run-policy-tests.mjs",
+    "test:function": "node --test files-function.test.mjs"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "0.2.17",
+    "aws4fetch": "1.0.20"
+  }
+}

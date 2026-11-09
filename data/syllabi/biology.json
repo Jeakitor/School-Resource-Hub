@@ -1,0 +1,81 @@
+{
+  "subject_slug": "biology",
+  "guide": {
+    "title": "Biology guide",
+    "first_assessment": 2025,
+    "applies_to_session": "May 2027",
+    "note": "Four themes (A–D) across four levels of biological organisation, first assessed in 2025. Subtopic codes follow the guide (e.g. A1.1 = theme A, level 1, topic 1)."
+  },
+  "review": {
+    "status": "unverified",
+    "verified_by": null,
+    "verified_on": null,
+    "notes": [
+      "Subtopic titles compiled from knowledge of the 2025 guide.",
+      "'HL' marks subtopics that are entirely AHL (A2.1, A2.3, A3.2, B3.3, C2.1, D2.2). Other subtopics also contain AHL statements. Verify against the official guide."
+    ]
+  },
+  "levels": { "SL": "SL and HL", "HL": "Additional higher level only" },
+  "topics": [
+    {
+      "code": "A", "title": "Unity and diversity", "level": "SL",
+      "subtopics": [
+        { "code": "A1.1", "title": "Water", "level": "SL" },
+        { "code": "A1.2", "title": "Nucleic acids", "level": "SL" },
+        { "code": "A2.1", "title": "Origins of cells", "level": "HL" },
+        { "code": "A2.2", "title": "Cell structure", "level": "SL" },
+        { "code": "A2.3", "title": "Viruses", "level": "HL" },
+        { "code": "A3.1", "title": "Diversity of organisms", "level": "SL" },
+        { "code": "A3.2", "title": "Classification and cladistics", "level": "HL" },
+        { "code": "A4.1", "title": "Evolution and speciation", "level": "SL" },
+        { "code": "A4.2", "title": "Conservation of biodiversity", "level": "SL" }
+      ]
+    },
+    {
+      "code": "B", "title": "Form and function", "level": "SL",
+      "subtopics": [
+        { "code": "B1.1", "title": "Carbohydrates and lipids", "level": "SL" },
+        { "code": "B1.2", "title": "Proteins", "level": "SL" },
+        { "code": "B2.1", "title": "Membranes and membrane transport", "level": "SL" },
+        { "code": "B2.2", "title": "Organelles and compartmentalization", "level": "SL" },
+        { "code": "B2.3", "title": "Cell specialization", "level": "SL" },
+        { "code": "B3.1", "title": "Gas exchange", "level": "SL" },
+        { "code": "B3.2", "title": "Transport", "level": "SL" },
+        { "code": "B3.3", "title": "Muscle and motility", "level": "HL" },
+        { "code": "B4.1", "title": "Adaptation to environment", "level": "SL" },
+        { "code": "B4.2", "title": "Ecological niches", "level": "SL" }
+      ]
+    },
+    {
+      "code": "C", "title": "Interaction and interdependence", "level": "SL",
+      "subtopics": [
+        { "code": "C1.1", "title": "Enzymes and metabolism", "level": "SL" },
+        { "code": "C1.2", "title": "Cell respiration", "level": "SL" },
+        { "code": "C1.3", "title": "Photosynthesis", "level": "SL" },
+        { "code": "C2.1", "title": "Chemical signalling", "level": "HL" },
+        { "code": "C2.2", "title": "Neural signalling", "level": "SL" },
+        { "code": "C3.1", "title": "Integration of body systems", "level": "SL" },
+        { "code": "C3.2", "title": "Defence against disease", "level": "SL" },
+        { "code": "C4.1", "title": "Populations and communities", "level": "SL" },
+        { "code": "C4.2", "title": "Transfers of energy and matter", "level": "SL" }
+      ]
+    },
+    {
+      "code": "D", "title": "Continuity and change", "level": "SL",
+      "subtopics": [
+        { "code": "D1.1", "title": "DNA replication", "level": "SL" },
+        { "code": "D1.2", "title": "Protein synthesis", "level": "SL" },
+        { "code": "D1.3", "title": "Mutations and gene editing", "level": "SL" },
+        { "code": "D2.1", "title": "Cell and nuclear division", "level": "SL" },
+        { "code": "D2.2", "title": "Gene expression", "level": "HL" },
+        { "code": "D2.3", "title": "Water potential", "level": "SL" },
+        { "code": "D3.1", "title": "Reproduction", "level": "SL" },
+        { "code": "D3.2", "title": "Inheritance", "level": "SL" },
+        { "code": "D3.3", "title": "Homeostasis", "level": "SL" },
+        { "code": "D4.1", "title": "Natural selection", "level": "SL" },
+        { "code": "D4.2", "title": "Stability and change", "level": "SL" },
+        { "code": "D4.3", "title": "Climate change", "level": "SL" }
+      ]
+    }
+  ]
+}

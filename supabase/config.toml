@@ -1,0 +1,5 @@
+# Supabase CLI settings used when deploying Edge Functions.
+# `files` checks the caller's token itself (anonymous visitors may request view
+# links for published PDFs), so the gateway's JWT check is turned off for it.
+[functions.files]
+verify_jwt = false

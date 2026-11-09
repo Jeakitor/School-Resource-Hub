@@ -1,0 +1,76 @@
+{
+  "subject_slug": "french-b",
+  "guide": {
+    "title": "Language B guide",
+    "first_assessment": 2020,
+    "applies_to_session": "May 2027",
+    "note": "Five prescribed themes. The topics under each theme are the guide's RECOMMENDED topics: teachers may choose others. HL also studies two literary works. Confirm no newer language B guide applies to May 2027."
+  },
+  "review": {
+    "status": "unverified",
+    "verified_by": null,
+    "verified_on": null,
+    "notes": [
+      "Themes are prescribed by the guide; the subtopics are its recommended topics, compiled from knowledge of the 2020 guide.",
+      "Shared structure with the other language B subjects on this site; language-specific content lives in resources, not the map."
+    ]
+  },
+  "levels": { "SL": "SL and HL", "HL": "HL only" },
+  "topics": [
+    {
+      "code": "T1", "title": "Identities", "level": "SL",
+      "subtopics": [
+        { "code": "T1.1", "title": "Lifestyles", "level": "SL" },
+        { "code": "T1.2", "title": "Health and well-being", "level": "SL" },
+        { "code": "T1.3", "title": "Beliefs and values", "level": "SL" },
+        { "code": "T1.4", "title": "Subcultures", "level": "SL" },
+        { "code": "T1.5", "title": "Language and identity", "level": "SL" }
+      ]
+    },
+    {
+      "code": "T2", "title": "Experiences", "level": "SL",
+      "subtopics": [
+        { "code": "T2.1", "title": "Leisure activities", "level": "SL" },
+        { "code": "T2.2", "title": "Holidays and travel", "level": "SL" },
+        { "code": "T2.3", "title": "Life stories", "level": "SL" },
+        { "code": "T2.4", "title": "Rites of passage", "level": "SL" },
+        { "code": "T2.5", "title": "Customs and traditions", "level": "SL" },
+        { "code": "T2.6", "title": "Migration", "level": "SL" }
+      ]
+    },
+    {
+      "code": "T3", "title": "Human ingenuity", "level": "SL",
+      "subtopics": [
+        { "code": "T3.1", "title": "Entertainment", "level": "SL" },
+        { "code": "T3.2", "title": "Artistic expressions", "level": "SL" },
+        { "code": "T3.3", "title": "Communication and media", "level": "SL" },
+        { "code": "T3.4", "title": "Technology", "level": "SL" },
+        { "code": "T3.5", "title": "Scientific innovation", "level": "SL" }
+      ]
+    },
+    {
+      "code": "T4", "title": "Social organization", "level": "SL",
+      "subtopics": [
+        { "code": "T4.1", "title": "Social relationships", "level": "SL" },
+        { "code": "T4.2", "title": "Community", "level": "SL" },
+        { "code": "T4.3", "title": "Social engagement", "level": "SL" },
+        { "code": "T4.4", "title": "Education", "level": "SL" },
+        { "code": "T4.5", "title": "The working world", "level": "SL" },
+        { "code": "T4.6", "title": "Law and order", "level": "SL" }
+      ]
+    },
+    {
+      "code": "T5", "title": "Sharing the planet", "level": "SL",
+      "subtopics": [
+        { "code": "T5.1", "title": "The environment", "level": "SL" },
+        { "code": "T5.2", "title": "Human rights", "level": "SL" },
+        { "code": "T5.3", "title": "Peace and conflict", "level": "SL" },
+        { "code": "T5.4", "title": "Equality", "level": "SL" },
+        { "code": "T5.5", "title": "Globalization", "level": "SL" },
+        { "code": "T5.6", "title": "Ethics", "level": "SL" },
+        { "code": "T5.7", "title": "Urban and rural environment", "level": "SL" }
+      ]
+    },
+    { "code": "LIT", "title": "Literature (two literary works)", "level": "HL", "subtopics": [] }
+  ]
+}

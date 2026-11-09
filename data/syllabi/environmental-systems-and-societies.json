@@ -1,0 +1,96 @@
+{
+  "subject_slug": "environmental-systems-and-societies",
+  "guide": {
+    "title": "Environmental systems and societies guide",
+    "first_assessment": 2026,
+    "applies_to_session": "May 2027",
+    "note": "Guide first assessed in 2026, the first to offer ESS at HL. The previous SL-only guide (first assessment 2017) does not apply."
+  },
+  "review": {
+    "status": "unverified",
+    "verified_by": null,
+    "verified_on": null,
+    "notes": [
+      "Topic and subtopic titles compiled from knowledge of the 2026 guide.",
+      "HL content is taught through three HL lenses, listed here as a separate HL-only topic; some topics may also carry HL-only statements. Verify against the official guide."
+    ]
+  },
+  "levels": { "SL": "SL and HL", "HL": "Additional higher level only" },
+  "topics": [
+    {
+      "code": "1", "title": "Foundation", "level": "SL",
+      "subtopics": [
+        { "code": "1.1", "title": "Perspectives", "level": "SL" },
+        { "code": "1.2", "title": "Systems", "level": "SL" },
+        { "code": "1.3", "title": "Sustainability", "level": "SL" }
+      ]
+    },
+    {
+      "code": "2", "title": "Ecology", "level": "SL",
+      "subtopics": [
+        { "code": "2.1", "title": "Individuals, populations, communities and ecosystems", "level": "SL" },
+        { "code": "2.2", "title": "Energy and biomass in ecosystems", "level": "SL" },
+        { "code": "2.3", "title": "Biogeochemical cycles", "level": "SL" },
+        { "code": "2.4", "title": "Climate and biomes", "level": "SL" },
+        { "code": "2.5", "title": "Zonation, succession and change in ecosystems", "level": "SL" }
+      ]
+    },
+    {
+      "code": "3", "title": "Biodiversity and conservation", "level": "SL",
+      "subtopics": [
+        { "code": "3.1", "title": "Biodiversity and evolution", "level": "SL" },
+        { "code": "3.2", "title": "Human impact on biodiversity", "level": "SL" },
+        { "code": "3.3", "title": "Conservation and regeneration", "level": "SL" }
+      ]
+    },
+    {
+      "code": "4", "title": "Water", "level": "SL",
+      "subtopics": [
+        { "code": "4.1", "title": "Water systems", "level": "SL" },
+        { "code": "4.2", "title": "Water access, use and security", "level": "SL" },
+        { "code": "4.3", "title": "Aquatic food production systems", "level": "SL" },
+        { "code": "4.4", "title": "Water pollution", "level": "SL" }
+      ]
+    },
+    {
+      "code": "5", "title": "Land", "level": "SL",
+      "subtopics": [
+        { "code": "5.1", "title": "Soil", "level": "SL" },
+        { "code": "5.2", "title": "Agriculture and food", "level": "SL" }
+      ]
+    },
+    {
+      "code": "6", "title": "Atmosphere and climate change", "level": "SL",
+      "subtopics": [
+        { "code": "6.1", "title": "Introduction to the atmosphere", "level": "SL" },
+        { "code": "6.2", "title": "Climate change: causes and impacts", "level": "SL" },
+        { "code": "6.3", "title": "Climate change: mitigation and adaptation", "level": "SL" },
+        { "code": "6.4", "title": "Stratospheric ozone", "level": "SL" }
+      ]
+    },
+    {
+      "code": "7", "title": "Natural resources", "level": "SL",
+      "subtopics": [
+        { "code": "7.1", "title": "Natural resources: uses and management", "level": "SL" },
+        { "code": "7.2", "title": "Energy sources: uses and management", "level": "SL" },
+        { "code": "7.3", "title": "Solid waste", "level": "SL" }
+      ]
+    },
+    {
+      "code": "8", "title": "Human populations and urban systems", "level": "SL",
+      "subtopics": [
+        { "code": "8.1", "title": "Human population dynamics", "level": "SL" },
+        { "code": "8.2", "title": "Urban systems and urban planning", "level": "SL" },
+        { "code": "8.3", "title": "Urban air pollution", "level": "SL" }
+      ]
+    },
+    {
+      "code": "HL", "title": "HL lenses", "level": "HL",
+      "subtopics": [
+        { "code": "HL.a", "title": "Environmental law", "level": "HL" },
+        { "code": "HL.b", "title": "Environmental economics", "level": "HL" },
+        { "code": "HL.c", "title": "Environmental ethics", "level": "HL" }
+      ]
+    }
+  ]
+}

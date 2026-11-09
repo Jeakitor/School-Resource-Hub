@@ -1,0 +1,122 @@
+{
+  "$comment": "Subject registry. A subject is level-independent; 'levels' lists the levels the IB offers for it. Every resource is tagged 'SL' (core: SL and HL students) or 'HL' (HL only). kind 'core' = DP core component (TOK, EE, CAS): no SL/HL split, stored as level SL ('for all students'). 'abbr' is the 2-letter badge in the subject picker. Add a subject by appending here and creating data/syllabi/<slug>.json, then run tools/check-syllabi.mjs. See docs/syllabus.md.",
+  "target_session": "May 2027",
+  "groups": {
+    "1": "Studies in Language and Literature",
+    "2": "Language Acquisition",
+    "3": "Individuals and Societies",
+    "4": "Sciences",
+    "5": "Mathematics",
+    "core": "DP core"
+  },
+  "subjects": [
+    {
+      "slug": "english-a-lang-lit", "name": "English A: Language and Literature", "short_name": "English Lang & Lit", "abbr": "En",
+      "levels": ["SL", "HL"], "ib_group": 1, "ib_group_name": "Studies in Language and Literature", "glyph": "¶",
+      "description": "Readers, writers and texts; time and space; intertextuality.",
+      "syllabus_file": "syllabi/english-a-lang-lit.json"
+    },
+    {
+      "slug": "french-b", "name": "French B", "short_name": "French B", "abbr": "Fr",
+      "levels": ["SL", "HL"], "ib_group": 2, "ib_group_name": "Language Acquisition", "glyph": "ç",
+      "description": "Five themes: identities, experiences, human ingenuity, social organization and sharing the planet. HL adds two literary works.",
+      "syllabus_file": "syllabi/french-b.json"
+    },
+    {
+      "slug": "french-ab-initio", "name": "French ab initio", "short_name": "French ab initio", "abbr": "Fa",
+      "levels": ["SL"], "ib_group": 2, "ib_group_name": "Language Acquisition", "glyph": "é",
+      "description": "Five prescribed themes: identities, experiences, human ingenuity, social organization and sharing the planet.",
+      "syllabus_file": "syllabi/french-ab-initio.json"
+    },
+    {
+      "slug": "hindi-b", "name": "Hindi B", "short_name": "Hindi B", "abbr": "Hi",
+      "levels": ["SL", "HL"], "ib_group": 2, "ib_group_name": "Language Acquisition", "glyph": "अ",
+      "description": "Five themes: identities, experiences, human ingenuity, social organization and sharing the planet. HL adds two literary works.",
+      "syllabus_file": "syllabi/hindi-b.json"
+    },
+    {
+      "slug": "business-management", "name": "Business Management", "short_name": "Business Management", "abbr": "BM",
+      "levels": ["SL", "HL"], "ib_group": 3, "ib_group_name": "Individuals and Societies", "glyph": "※",
+      "description": "Human resources, finance and accounts, marketing, operations and the BM toolkit.",
+      "syllabus_file": "syllabi/business-management.json"
+    },
+    {
+      "slug": "economics", "name": "Economics", "short_name": "Economics", "abbr": "Ec",
+      "levels": ["SL", "HL"], "ib_group": 3, "ib_group_name": "Individuals and Societies", "glyph": "§",
+      "description": "Microeconomics, macroeconomics and the global economy.",
+      "syllabus_file": "syllabi/economics.json"
+    },
+    {
+      "slug": "psychology", "name": "Psychology", "short_name": "Psychology", "abbr": "Ps",
+      "levels": ["SL", "HL"], "ib_group": 3, "ib_group_name": "Individuals and Societies", "glyph": "ψ",
+      "description": "Concepts, content and contexts of human behaviour, with research methods throughout.",
+      "syllabus_file": "syllabi/psychology.json"
+    },
+    {
+      "slug": "digital-society", "name": "Digital Society", "short_name": "Digital Society", "abbr": "DS",
+      "levels": ["SL", "HL"], "ib_group": 3, "ib_group_name": "Individuals and Societies", "glyph": "#",
+      "description": "Concepts, content and contexts of digital systems in society. HL adds challenges and interventions.",
+      "syllabus_file": "syllabi/digital-society.json"
+    },
+    {
+      "slug": "environmental-systems-and-societies", "name": "Environmental Systems and Societies", "short_name": "ESS", "abbr": "ES",
+      "levels": ["SL", "HL"], "ib_group": 4, "ib_group_name": "Sciences", "glyph": "❦",
+      "description": "Foundation, ecology, biodiversity, water, land, atmosphere and climate, resources and human systems. HL adds environmental law, economics and ethics.",
+      "syllabus_file": "syllabi/environmental-systems-and-societies.json"
+    },
+    {
+      "slug": "biology", "name": "Biology", "short_name": "Biology", "abbr": "Bi",
+      "levels": ["SL", "HL"], "ib_group": 4, "ib_group_name": "Sciences", "glyph": "⚘",
+      "description": "Unity and diversity; form and function; interaction and interdependence; continuity and change.",
+      "syllabus_file": "syllabi/biology.json"
+    },
+    {
+      "slug": "chemistry", "name": "Chemistry", "short_name": "Chemistry", "abbr": "Ch",
+      "levels": ["SL", "HL"], "ib_group": 4, "ib_group_name": "Sciences", "glyph": "⌬",
+      "description": "Structure (models of matter, bonding and classification) and reactivity (energy, amount, rate, equilibrium and mechanisms).",
+      "syllabus_file": "syllabi/chemistry.json"
+    },
+    {
+      "slug": "physics", "name": "Physics", "short_name": "Physics", "abbr": "Ph",
+      "levels": ["SL", "HL"], "ib_group": 4, "ib_group_name": "Sciences", "glyph": "λ",
+      "description": "Space, time and motion; the particulate nature of matter; wave behaviour; fields; nuclear and quantum physics.",
+      "syllabus_file": "syllabi/physics.json"
+    },
+    {
+      "slug": "computer-science", "name": "Computer Science", "short_name": "Computer Science", "abbr": "CS",
+      "levels": ["SL", "HL"], "ib_group": 4, "ib_group_name": "Sciences", "glyph": "{ }",
+      "description": "Computer fundamentals, networks, databases, machine learning, computational thinking and programming.",
+      "syllabus_file": "syllabi/computer-science.json"
+    },
+    {
+      "slug": "mathematics-aa", "name": "Mathematics: Analysis and Approaches", "short_name": "Maths AA", "abbr": "AA",
+      "levels": ["SL", "HL"], "ib_group": 5, "ib_group_name": "Mathematics", "glyph": "∫",
+      "description": "Algebra, functions, geometry and trigonometry, statistics and probability, and calculus.",
+      "syllabus_file": "syllabi/mathematics-aa.json"
+    },
+    {
+      "slug": "mathematics-ai", "name": "Mathematics: Applications and Interpretation", "short_name": "Maths AI", "abbr": "AI",
+      "levels": ["SL", "HL"], "ib_group": 5, "ib_group_name": "Mathematics", "glyph": "Σ",
+      "description": "Number and algebra, functions, geometry and trigonometry, statistics and probability, and calculus, with an emphasis on modelling and technology.",
+      "syllabus_file": "syllabi/mathematics-ai.json"
+    },
+    {
+      "slug": "theory-of-knowledge", "name": "Theory of Knowledge", "short_name": "TOK", "abbr": "TK", "kind": "core",
+      "levels": ["SL"], "ib_group": null, "ib_group_name": "DP core", "glyph": "?",
+      "description": "Knowledge and the knower, optional themes, areas of knowledge, the exhibition and the essay.",
+      "syllabus_file": "syllabi/theory-of-knowledge.json"
+    },
+    {
+      "slug": "extended-essay", "name": "Extended Essay", "short_name": "Extended Essay", "abbr": "EE", "kind": "core",
+      "levels": ["SL"], "ib_group": null, "ib_group_name": "DP core", "glyph": "✎",
+      "description": "Choosing a topic, research, writing, referencing and reflection for the 4,000-word essay.",
+      "syllabus_file": "syllabi/extended-essay.json"
+    },
+    {
+      "slug": "cas", "name": "Creativity, Activity, Service", "short_name": "CAS", "abbr": "CA", "kind": "core",
+      "levels": ["SL"], "ib_group": null, "ib_group_name": "DP core", "glyph": "✦",
+      "description": "Creativity, activity and service experiences, the CAS project, reflection and the learning outcomes.",
+      "syllabus_file": "syllabi/cas.json"
+    }
+  ]
+}

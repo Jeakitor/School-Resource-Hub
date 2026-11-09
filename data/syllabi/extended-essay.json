@@ -1,0 +1,25 @@
+{
+  "subject_slug": "extended-essay",
+  "guide": {
+    "title": "Extended essay guide",
+    "first_assessment": null,
+    "applies_to_session": "May 2027",
+    "note": "These are SITE CATEGORIES for organising EE help, not syllabus topics from the guide. Confirm which EE guide (and assessment criteria) applies to the May 2027 session before adding criterion-specific categories."
+  },
+  "review": {
+    "status": "unverified",
+    "verified_by": null,
+    "verified_on": null,
+    "notes": ["Organisational categories chosen for the site; they do not claim to mirror the guide's structure."]
+  },
+  "categories_not_syllabus": true,
+  "levels": { "SL": "All students" },
+  "topics": [
+    { "code": "1", "title": "Choosing a subject, topic and research question", "level": "SL", "subtopics": [] },
+    { "code": "2", "title": "Research and planning", "level": "SL", "subtopics": [] },
+    { "code": "3", "title": "Writing and structure", "level": "SL", "subtopics": [] },
+    { "code": "4", "title": "Referencing and academic integrity", "level": "SL", "subtopics": [] },
+    { "code": "5", "title": "Reflection and supervision", "level": "SL", "subtopics": [] },
+    { "code": "6", "title": "Assessment criteria and examples of practice", "level": "SL", "subtopics": [] }
+  ]
+}

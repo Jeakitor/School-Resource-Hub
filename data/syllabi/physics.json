@@ -1,0 +1,70 @@
+{
+  "subject_slug": "physics",
+  "guide": {
+    "title": "Physics guide",
+    "first_assessment": 2025,
+    "applies_to_session": "May 2027",
+    "note": "Themes A–E structure of the guide first assessed in 2025."
+  },
+  "review": {
+    "status": "unverified",
+    "verified_by": null,
+    "verified_on": null,
+    "notes": [
+      "Subtopic titles compiled from knowledge of the 2025 guide.",
+      "Several subtopics contain both SL and AHL content; the 'HL' marker here is only used for subtopics that are entirely AHL. Verify against the official guide."
+    ]
+  },
+  "levels": { "SL": "SL and HL", "HL": "Additional higher level only" },
+  "topics": [
+    {
+      "code": "A", "title": "Space, time and motion", "level": "SL",
+      "subtopics": [
+        { "code": "A.1", "title": "Kinematics", "level": "SL" },
+        { "code": "A.2", "title": "Forces and momentum", "level": "SL" },
+        { "code": "A.3", "title": "Work, energy and power", "level": "SL" },
+        { "code": "A.4", "title": "Rigid body mechanics", "level": "HL" },
+        { "code": "A.5", "title": "Galilean and special relativity", "level": "HL" }
+      ]
+    },
+    {
+      "code": "B", "title": "The particulate nature of matter", "level": "SL",
+      "subtopics": [
+        { "code": "B.1", "title": "Thermal energy transfers", "level": "SL" },
+        { "code": "B.2", "title": "Greenhouse effect", "level": "SL" },
+        { "code": "B.3", "title": "Gas laws", "level": "SL" },
+        { "code": "B.4", "title": "Thermodynamics", "level": "HL" },
+        { "code": "B.5", "title": "Current and circuits", "level": "SL" }
+      ]
+    },
+    {
+      "code": "C", "title": "Wave behaviour", "level": "SL",
+      "subtopics": [
+        { "code": "C.1", "title": "Simple harmonic motion", "level": "SL" },
+        { "code": "C.2", "title": "Wave model", "level": "SL" },
+        { "code": "C.3", "title": "Wave phenomena", "level": "SL" },
+        { "code": "C.4", "title": "Standing waves and resonance", "level": "SL" },
+        { "code": "C.5", "title": "Doppler effect", "level": "SL" }
+      ]
+    },
+    {
+      "code": "D", "title": "Fields", "level": "SL",
+      "subtopics": [
+        { "code": "D.1", "title": "Gravitational fields", "level": "SL" },
+        { "code": "D.2", "title": "Electric and magnetic fields", "level": "SL" },
+        { "code": "D.3", "title": "Motion in electromagnetic fields", "level": "SL" },
+        { "code": "D.4", "title": "Induction", "level": "HL" }
+      ]
+    },
+    {
+      "code": "E", "title": "Nuclear and quantum physics", "level": "SL",
+      "subtopics": [
+        { "code": "E.1", "title": "Structure of the atom", "level": "SL" },
+        { "code": "E.2", "title": "Quantum physics", "level": "HL" },
+        { "code": "E.3", "title": "Radioactive decay", "level": "SL" },
+        { "code": "E.4", "title": "Fission", "level": "SL" },
+        { "code": "E.5", "title": "Fusion and stars", "level": "SL" }
+      ]
+    }
+  ]
+}

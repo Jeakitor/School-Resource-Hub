@@ -1,0 +1,48 @@
+{
+  "subject_slug": "theory-of-knowledge",
+  "guide": {
+    "title": "Theory of knowledge guide",
+    "first_assessment": 2022,
+    "applies_to_session": "May 2027",
+    "note": "Core theme, optional themes (students study two), five areas of knowledge, and two assessment tasks. TOK has no SL/HL split."
+  },
+  "review": {
+    "status": "unverified",
+    "verified_by": null,
+    "verified_on": null,
+    "notes": ["Structure compiled from knowledge of the 2022 guide."]
+  },
+  "levels": { "SL": "All students" },
+  "topics": [
+    {
+      "code": "CT", "title": "Core theme: knowledge and the knower", "level": "SL", "subtopics": []
+    },
+    {
+      "code": "OT", "title": "Optional themes", "level": "SL",
+      "subtopics": [
+        { "code": "OT.1", "title": "Knowledge and technology", "level": "SL" },
+        { "code": "OT.2", "title": "Knowledge and language", "level": "SL" },
+        { "code": "OT.3", "title": "Knowledge and politics", "level": "SL" },
+        { "code": "OT.4", "title": "Knowledge and religion", "level": "SL" },
+        { "code": "OT.5", "title": "Knowledge and indigenous societies", "level": "SL" }
+      ]
+    },
+    {
+      "code": "AOK", "title": "Areas of knowledge", "level": "SL",
+      "subtopics": [
+        { "code": "AOK.1", "title": "History", "level": "SL" },
+        { "code": "AOK.2", "title": "The human sciences", "level": "SL" },
+        { "code": "AOK.3", "title": "The natural sciences", "level": "SL" },
+        { "code": "AOK.4", "title": "Mathematics", "level": "SL" },
+        { "code": "AOK.5", "title": "The arts", "level": "SL" }
+      ]
+    },
+    {
+      "code": "AS", "title": "Assessment", "level": "SL",
+      "subtopics": [
+        { "code": "AS.1", "title": "TOK exhibition", "level": "SL" },
+        { "code": "AS.2", "title": "TOK essay", "level": "SL" }
+      ]
+    }
+  ]
+}

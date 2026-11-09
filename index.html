@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>School Resource Hub · IB Diploma resources, organised by syllabus</title>
+  <meta name="description" content="A student-built library of IB Diploma Programme notes, PDFs and links, organised by the May 2027 syllabi.">
+  <meta name="theme-color" content="#1b1b1f">
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/pages.css">
+  <script type="module" src="assets/js/pages/home.js"></script>
+</head>
+<body class="page-home">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div data-shell="header"></div>
+
+  <main id="main">
+    <!-- Hero ---------------------------------------------------------------->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero__grid">
+        <div>
+          <span class="eyebrow">IB Diploma Programme · May 2027 session</span>
+          <h1 id="hero-title">A shared library for the <em>Diploma</em>.</h1>
+          <p class="hero__lede">
+            Notes, revision guides and useful links written and checked by IB students,
+            organised by the syllabus topics you are actually examined on.
+          </p>
+
+          <form class="hero__search" role="search" action="search.html" method="get">
+            <label class="visually-hidden" for="hero-q">Search resources</label>
+            <div class="search-field">
+              <span class="search-field__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M11 18a7 7 0 1 0 0-14 7 7 0 0 0 0 14z"/><path d="M20 20l-4-4"/></svg>
+              </span>
+              <input id="hero-q" name="q" type="search" autocomplete="off" spellcheck="false"
+                     placeholder="Search topics or titles…">
+              <span class="search-field__hint" aria-hidden="true"><kbd>/</kbd></span>
+              <button class="btn btn--primary search-field__submit" type="submit">Search</button>
+            </div>
+          </form>
+
+          <p class="hero__jump" data-slot="jump" aria-label="Jump to a subject"></p>
+        </div>
+
+        <aside class="hero__aside" aria-labelledby="ledger-title">
+          <div class="panel">
+            <span class="eyebrow" id="ledger-title">The library today</span>
+            <dl class="ledger" data-slot="ledger">
+              <div class="ledger__row"><dt>Subjects supported</dt><dd><span class="skeleton" style="width:2ch"></span></dd></div>
+              <div class="ledger__row"><dt>Syllabus topics mapped</dt><dd><span class="skeleton" style="width:3ch"></span></dd></div>
+              <div class="ledger__row"><dt>Published resources</dt><dd><span class="skeleton" style="width:2ch"></span></dd></div>
+            </dl>
+          </div>
+          <p class="hero__aside-note">Counts are live. Syllabus maps are being checked against the official IB subject guides.</p>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Subjects ------------------------------------------------------------>
+    <section class="section" id="subjects" aria-labelledby="subjects-title">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow">Browse</span>
+            <h2 id="subjects-title">Subjects</h2>
+          </div>
+          <a class="arrow-link" href="subjects.html">All subjects and syllabi</a>
+        </div>
+        <div data-slot="subjects-published"></div>
+
+        <div class="awaiting" data-slot="awaiting-wrap" hidden>
+          <div class="awaiting__head">
+            <h3>Awaiting contributions</h3>
+            <p>These subjects are mapped to the syllabus but have no published resources yet.</p>
+          </div>
+          <ul class="subject-index subject-index--compact" data-slot="subjects-awaiting"></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recently added ------------------------------------------------------>
+    <section class="section" id="recent" aria-labelledby="recent-title">
+      <div class="container split">
+        <div>
+          <div class="section-head">
+            <div>
+              <span class="eyebrow">Latest</span>
+              <h2 id="recent-title">Recently added</h2>
+            </div>
+            <a class="arrow-link" href="library.html">Open the library</a>
+          </div>
+          <div data-slot="recent"></div>
+        </div>
+        <div class="split__side">
+          <h3>Every resource is reviewed</h3>
+          <p>Submissions are checked by a student moderator before they appear here, so what you find is relevant to the syllabus and safe to open.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contribute ---------------------------------------------------------->
+    <section class="section section--band" id="contribute" aria-labelledby="contribute-title">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow">Take part</span>
+            <h2 id="contribute-title">Share what helped you</h2>
+            <p>No technical setup. If you can attach a file to an email, you can contribute.</p>
+          </div>
+        </div>
+        <ol class="steps">
+          <li>
+            <h3>Submit</h3>
+            <p>Upload a PDF, write notes or share a link, and choose the syllabus topic it covers.</p>
+          </li>
+          <li>
+            <h3>Review</h3>
+            <p>A moderator checks it for accuracy and relevance. You can follow its status in your account.</p>
+          </li>
+          <li>
+            <h3>Publish</h3>
+            <p>Once approved it appears in the library, credited to you, for every IB student to use.</p>
+          </li>
+        </ol>
+        <div class="contribute-actions">
+          <a class="btn btn--primary btn--lg" href="contribute.html">Contribute a resource</a>
+          <a class="btn btn--lg btn--quiet" href="auth.html?mode=register">Create a free account</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div data-shell="footer"></div>
+</body>
+</html>

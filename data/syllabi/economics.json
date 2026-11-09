@@ -1,0 +1,72 @@
+{
+  "subject_slug": "economics",
+  "guide": {
+    "title": "Economics guide",
+    "first_assessment": 2022,
+    "applies_to_session": "May 2027",
+    "note": "Confirm no newer economics guide applies to the May 2027 session."
+  },
+  "review": {
+    "status": "unverified",
+    "verified_by": null,
+    "verified_on": null,
+    "notes": [
+      "Unit and subtopic titles compiled from knowledge of the 2022 guide.",
+      "HL-only subtopics are kept and tagged 'HL'; the SL subject page hides them."
+    ]
+  },
+  "levels": { "SL": "SL and HL", "HL": "HL only" },
+  "topics": [
+    {
+      "code": "1", "title": "Introduction to economics", "level": "SL",
+      "subtopics": [
+        { "code": "1.1", "title": "What is economics?", "level": "SL" },
+        { "code": "1.2", "title": "How do economists approach the world?", "level": "SL" }
+      ]
+    },
+    {
+      "code": "2", "title": "Microeconomics", "level": "SL",
+      "subtopics": [
+        { "code": "2.1", "title": "Demand", "level": "SL" },
+        { "code": "2.2", "title": "Supply", "level": "SL" },
+        { "code": "2.3", "title": "Competitive market equilibrium", "level": "SL" },
+        { "code": "2.4", "title": "Critique of the maximizing behaviour of consumers and producers", "level": "HL" },
+        { "code": "2.5", "title": "Elasticity of demand", "level": "SL" },
+        { "code": "2.6", "title": "Elasticity of supply", "level": "SL" },
+        { "code": "2.7", "title": "Role of government in microeconomics", "level": "SL" },
+        { "code": "2.8", "title": "Market failure: externalities and common pool or common access resources", "level": "SL" },
+        { "code": "2.9", "title": "Market failure: public goods", "level": "SL" },
+        { "code": "2.10", "title": "Market failure: asymmetric information", "level": "HL" },
+        { "code": "2.11", "title": "Market failure: market power", "level": "HL" },
+        { "code": "2.12", "title": "The market's inability to achieve equity", "level": "HL" }
+      ]
+    },
+    {
+      "code": "3", "title": "Macroeconomics", "level": "SL",
+      "subtopics": [
+        { "code": "3.1", "title": "Measuring economic activity and illustrating its variations", "level": "SL" },
+        { "code": "3.2", "title": "Variations in economic activity: aggregate demand and aggregate supply", "level": "SL" },
+        { "code": "3.3", "title": "Macroeconomic objectives", "level": "SL" },
+        { "code": "3.4", "title": "Economics of inequality and poverty", "level": "SL" },
+        { "code": "3.5", "title": "Demand management (demand-side policies): monetary policy", "level": "SL" },
+        { "code": "3.6", "title": "Demand management: fiscal policy", "level": "SL" },
+        { "code": "3.7", "title": "Supply-side policies", "level": "SL" }
+      ]
+    },
+    {
+      "code": "4", "title": "The global economy", "level": "SL",
+      "subtopics": [
+        { "code": "4.1", "title": "Benefits of international trade", "level": "SL" },
+        { "code": "4.2", "title": "Types of trade protection", "level": "SL" },
+        { "code": "4.3", "title": "Arguments for and against trade control/protection", "level": "SL" },
+        { "code": "4.4", "title": "Economic integration", "level": "SL" },
+        { "code": "4.5", "title": "Exchange rates", "level": "SL" },
+        { "code": "4.6", "title": "Balance of payments", "level": "SL" },
+        { "code": "4.7", "title": "Sustainable development", "level": "SL" },
+        { "code": "4.8", "title": "Measuring development", "level": "SL" },
+        { "code": "4.9", "title": "Barriers to economic growth and/or economic development", "level": "SL" },
+        { "code": "4.10", "title": "Economic growth and/or economic development strategies", "level": "SL" }
+      ]
+    }
+  ]
+}

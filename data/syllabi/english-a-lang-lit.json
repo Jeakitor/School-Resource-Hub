@@ -1,0 +1,31 @@
+{
+  "subject_slug": "english-a-lang-lit",
+  "guide": {
+    "title": "Language A: language and literature guide",
+    "first_assessment": 2021,
+    "applies_to_session": "May 2027",
+    "note": "The course is organized by three areas of exploration rather than numbered topics. Confirm this guide still applies to May 2027."
+  },
+  "review": {
+    "status": "unverified",
+    "verified_by": null,
+    "verified_on": null,
+    "notes": [
+      "Areas of exploration are the course's organizing structure.",
+      "Assessment components are listed separately in 'assessment' and are not syllabus topics.",
+      "School-specific set texts belong in a separate mapping, not here."
+    ]
+  },
+  "levels": { "SL": "SL and HL", "HL": "HL only" },
+  "topics": [
+    { "code": "AoE1", "title": "Readers, writers and texts", "level": "SL", "subtopics": [] },
+    { "code": "AoE2", "title": "Time and space", "level": "SL", "subtopics": [] },
+    { "code": "AoE3", "title": "Intertextuality: connecting texts", "level": "SL", "subtopics": [] }
+  ],
+  "assessment": [
+    { "code": "P1", "title": "Paper 1: guided textual analysis", "level": "SL" },
+    { "code": "P2", "title": "Paper 2: comparative essay", "level": "SL" },
+    { "code": "IO", "title": "Individual oral", "level": "SL" },
+    { "code": "HLE", "title": "HL essay", "level": "HL" }
+  ]
+}

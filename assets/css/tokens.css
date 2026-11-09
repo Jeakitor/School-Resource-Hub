@@ -1,0 +1,86 @@
+/* =========================================================================
+   Design tokens — the single source of truth for colour, type and spacing.
+   Every other stylesheet references these variables; never hard-code
+   colours elsewhere. See docs/design-system.md.
+   ========================================================================= */
+
+:root {
+  color-scheme: dark;
+
+  /* Surfaces -------------------------------------------------------------- */
+  --bg:            #1b1b1f;   /* page background */
+  --bg-2:          #232329;   /* secondary background: header, sidebars, bands */
+  --surface:       #2a2a32;   /* elevated: inputs, menus, panels */
+  --surface-hover: #30303a;
+
+  /* Text ------------------------------------------------------------------ */
+  --text:          #eeeae2;   /* primary */
+  --text-2:        #aaa7a0;   /* secondary */
+  --text-3:        #8d8a83;   /* tertiary / metadata (≥4.5:1 on --bg) */
+
+  /* Accent (use sparingly) ------------------------------------------------ */
+  --accent:        #b2f07b;
+  --accent-ink:    #16190f;   /* text placed on an accent fill */
+  --accent-soft:   rgba(178, 240, 123, 0.10);
+  --accent-line:   rgba(178, 240, 123, 0.35);
+
+  /* Lines ----------------------------------------------------------------- */
+  --line:          rgba(238, 234, 226, 0.08);
+  --line-strong:   rgba(238, 234, 226, 0.16);
+
+  /* Status (moderation states) — muted so they never compete with accent -- */
+  --status-pending:  #d9c27a;
+  --status-approved: var(--accent);
+  --status-rejected: #e08f7f;
+
+  /* IB subject groups (subject badges only) — muted so the accent stays special.
+     Each passes 4.5:1 for the badge text on --bg. */
+  --group-1:    #e3a983;   /* Language and literature: terracotta */
+  --group-2:    #8fb4e3;   /* Language acquisition: blue */
+  --group-3:    #c9a3db;   /* Individuals and societies: violet */
+  --group-4:    #7fcbb4;   /* Sciences: teal */
+  --group-5:    #e2cf86;   /* Mathematics: sand */
+  --group-core: #b5b1a8;   /* DP core: stone */
+
+  /* Typography ------------------------------------------------------------ */
+  --font-serif: "Times New Roman", Times, "Liberation Serif", "Nimbus Roman", serif;
+  --font-mono:  ui-monospace, "Cascadia Mono", "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+
+  --fs-xs:   0.8125rem;  /* 13px  — mono metadata */
+  --fs-sm:   0.9375rem;  /* 15px */
+  --fs-base: 1.125rem;   /* 18px  — Times needs a larger body size */
+  --fs-md:   1.3125rem;  /* 21px */
+  --fs-lg:   1.75rem;    /* 28px */
+  --fs-xl:   2.375rem;   /* 38px */
+  --fs-2xl:  clamp(2.5rem, 1.6rem + 3.6vw, 4.25rem); /* hero */
+
+  --lh-tight: 1.15;
+  --lh-snug:  1.35;
+  --lh-body:  1.6;
+
+  /* Spacing (4px base) ---------------------------------------------------- */
+  --sp-1: 0.25rem;
+  --sp-2: 0.5rem;
+  --sp-3: 0.75rem;
+  --sp-4: 1rem;
+  --sp-5: 1.5rem;
+  --sp-6: 2rem;
+  --sp-7: 3rem;
+  --sp-8: 4.5rem;
+  --sp-9: 6rem;
+
+  /* Shape & depth --------------------------------------------------------- */
+  --radius-sm: 3px;
+  --radius:    5px;
+  --shadow-pop: 0 10px 30px -12px rgba(0, 0, 0, 0.6);
+
+  /* Layout ---------------------------------------------------------------- */
+  --container: 74rem;
+  --prose:     42rem;
+  --gutter:    clamp(1rem, 0.5rem + 2.5vw, 2.5rem);
+  --header-h:  3.75rem;
+
+  /* Motion ---------------------------------------------------------------- */
+  --ease: cubic-bezier(0.2, 0.6, 0.2, 1);
+  --dur:  140ms;
+}

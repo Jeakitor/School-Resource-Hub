@@ -1,0 +1,71 @@
+{
+  "subject_slug": "french-ab-initio",
+  "guide": {
+    "title": "Language ab initio guide",
+    "first_assessment": 2020,
+    "applies_to_session": "May 2027",
+    "note": "Five prescribed themes, each with prescribed topics. Confirm no newer language ab initio guide applies to May 2027."
+  },
+  "review": {
+    "status": "unverified",
+    "verified_by": null,
+    "verified_on": null,
+    "notes": [
+      "Theme and prescribed-topic titles given in English as in the guide; French display labels can be added as 'title_fr' once verified.",
+      "Assessment components are listed separately and are not syllabus topics."
+    ]
+  },
+  "levels": { "SL": "SL" },
+  "topics": [
+    {
+      "code": "T1", "title": "Identities", "level": "SL",
+      "subtopics": [
+        { "code": "T1.1", "title": "Personal attributes", "level": "SL" },
+        { "code": "T1.2", "title": "Personal relationships", "level": "SL" },
+        { "code": "T1.3", "title": "Eating and drinking", "level": "SL" },
+        { "code": "T1.4", "title": "Physical well-being", "level": "SL" }
+      ]
+    },
+    {
+      "code": "T2", "title": "Experiences", "level": "SL",
+      "subtopics": [
+        { "code": "T2.1", "title": "Daily routine", "level": "SL" },
+        { "code": "T2.2", "title": "Leisure", "level": "SL" },
+        { "code": "T2.3", "title": "Holidays", "level": "SL" },
+        { "code": "T2.4", "title": "Festivals and celebrations", "level": "SL" }
+      ]
+    },
+    {
+      "code": "T3", "title": "Human ingenuity", "level": "SL",
+      "subtopics": [
+        { "code": "T3.1", "title": "Transport", "level": "SL" },
+        { "code": "T3.2", "title": "Entertainment", "level": "SL" },
+        { "code": "T3.3", "title": "Media", "level": "SL" },
+        { "code": "T3.4", "title": "Technology", "level": "SL" }
+      ]
+    },
+    {
+      "code": "T4", "title": "Social organization", "level": "SL",
+      "subtopics": [
+        { "code": "T4.1", "title": "Neighbourhood", "level": "SL" },
+        { "code": "T4.2", "title": "Education", "level": "SL" },
+        { "code": "T4.3", "title": "The workplace", "level": "SL" },
+        { "code": "T4.4", "title": "Social issues", "level": "SL" }
+      ]
+    },
+    {
+      "code": "T5", "title": "Sharing the planet", "level": "SL",
+      "subtopics": [
+        { "code": "T5.1", "title": "Climate", "level": "SL" },
+        { "code": "T5.2", "title": "Physical geography", "level": "SL" },
+        { "code": "T5.3", "title": "The environment", "level": "SL" },
+        { "code": "T5.4", "title": "Global issues", "level": "SL" }
+      ]
+    }
+  ],
+  "assessment": [
+    { "code": "P1", "title": "Paper 1: productive skills (writing)", "level": "SL" },
+    { "code": "P2", "title": "Paper 2: receptive skills (listening and reading)", "level": "SL" },
+    { "code": "IA", "title": "Individual oral", "level": "SL" }
+  ]
+}

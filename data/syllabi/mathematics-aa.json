@@ -1,0 +1,27 @@
+{
+  "subject_slug": "mathematics-aa",
+  "guide": {
+    "title": "Mathematics: analysis and approaches guide",
+    "first_assessment": 2021,
+    "applies_to_session": "May 2027",
+    "note": "The new mathematics guide (first assessment 2029) does NOT apply to the May 2027 session."
+  },
+  "review": {
+    "status": "unverified",
+    "verified_by": null,
+    "verified_on": null,
+    "notes": [
+      "Topic titles match the five syllabus topics of the 2021 guide.",
+      "Subtopics are intentionally empty: transcribe SL 1.1+ and AHL subtopic statements directly from the official guide rather than paraphrasing."
+    ]
+  },
+  "subtopics_pending": true,
+  "levels": { "SL": "Core content (SL and HL)", "HL": "Additional higher level (AHL)" },
+  "topics": [
+    { "code": "1", "title": "Number and algebra", "level": "SL", "subtopics": [] },
+    { "code": "2", "title": "Functions", "level": "SL", "subtopics": [] },
+    { "code": "3", "title": "Geometry and trigonometry", "level": "SL", "subtopics": [] },
+    { "code": "4", "title": "Statistics and probability", "level": "SL", "subtopics": [] },
+    { "code": "5", "title": "Calculus", "level": "SL", "subtopics": [] }
+  ]
+}
