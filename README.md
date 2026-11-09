@@ -43,12 +43,12 @@ tools/dev-server.mjs           zero-dependency local server
 | Phase | Scope | State |
 |---|---|---|
 | 0 | Foundation, design system, shell | Done |
-| 1 | Visual frontend | Done: all pages built; forms validate but send nothing yet |
+| 1 | Visual frontend | Done |
 | 2 | Supabase schema, RLS, storage | Done: migrations 0001–0010 applied (0010 = 18-subject catalog); 87 policy tests + 15 function tests passing. PDFs stored in Backblaze B2, upload confirmed working ([setup](docs/storage-b2.md)) |
 | 3 | Authentication | Done: sign-in confirmed working with a real admin account |
 | 4 | Resource browsing, search, PDF delivery | Done: live on every page; signed PDF links confirmed with a real upload |
-| 5 | Contributions | Done: submit and edit confirmed; withdraw fixed (inline confirmation), awaiting retest |
-| 6 | Administration | Built: live review queue, decisions, teacher notes/flags/reviewed mark, roles, leftover files; needs migration 0008 |
+| 5 | Contributions | Done: submit, edit and withdraw confirmed |
+| 6 | Administration | Done: review queue, decisions, teacher notes/flags/reviewed mark, roles, leftover files |
 | 7 | Testing and deployment | Live at https://jeakitor.github.io/School-Resource-Hub/ ([deployment](docs/deployment.md)); launch checklist open |
 
 See [docs/architecture.md](docs/architecture.md) for how the pieces fit together.
