@@ -188,7 +188,7 @@ function renderFooter() {
       ),
       h('div', { class: 'site-footer__base' },
         h('span', null, `Syllabi aligned to the ${TARGET_SESSION} examination session`),
-        h('span', null, '© Jeakitor Work'),
+        h('span', null, '© Jeakitor Works'),
       ),
     ),
   );
