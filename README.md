@@ -51,7 +51,7 @@ tools/dev-server.mjs           zero-dependency local server
 | 6 | Administration | Done: review queue, decisions, teacher notes/flags/reviewed mark, roles, leftover files |
 | 7 | Testing and deployment | Live at https://jeakitor.github.io/School-Resource-Hub/ ([deployment](docs/deployment.md)); launch checklist open |
 
-See [docs/architecture.md](docs/architecture.md) for how the pieces fit together.
+See [docs/architecture.md](docs/architecture.md) for how the pieces fit together. _(Tool Reference)_
 
 ## Not affiliated with the IB
 
